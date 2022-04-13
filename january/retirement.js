@@ -90,3 +90,28 @@ const jonas = {
 
  console.log(`${person.johnBmi() > person.markBmi() ? 'John BMI is grater than Mark BMI' : 'Mark BMI is grater than Jhon BMI'}`)
  */
+
+
+//  given an array of temperature on an one day . Calculate the temperature amplitude
+
+/*
+const temperature = [3, -2, -6, -1,"error", 9, 13, 17, 15, 14, 9, 5 ]
+
+const calcTempAplitude = temps => {
+    let max = temps[0];
+    let min = temps[0];
+      
+    for(let i=0; i< temps.length; i++){
+        const curTemp = temps[i];
+          if(typeof curTemp !== 'number') continue;
+          if(curTemp > max) max = curTemp;
+          if(curTemp < min) min = curTemp;
+    }
+    console.log(max, min);
+    return max - min;
+}
+
+const result =  calcTempAplitude(temperature);
+console.log(result);
+
+*/
