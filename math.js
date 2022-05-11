@@ -79,13 +79,14 @@ console.log("The small number is ",smallest); */
 
 
  // fibonacci series
-
-//  let fibo = [0,1];
-//  for(let i=2; i<=10; i++){
-//      fibo[i] = fibo[i-1] + fibo[i-2];
+/*
+ let fibo = [0,1];
+ for(let i=2; i<=10; i++){
+     fibo[i] = fibo[i-1] + fibo[i-2];
    
-//  }
-//  console.log(fibo);
+ }
+ console.log(fibo);
+ */
 
 // fibonacci series by function
 
@@ -102,7 +103,8 @@ console.log("The small number is ",smallest); */
 let result = getFibo(10);
 console.log(result); */
 
-/*/ recursive fibonacci element
+// recursive fibonacci element
+/*
 
 function fibonacci(n){
     if(n==0){
@@ -114,7 +116,8 @@ function fibonacci(n){
     return fibonacci(n-1) + fibonacci(n-2);
 }
 const fiboElement = fibonacci(6);
-console.log(fiboElement);*/
+console.log(fiboElement);
+*/
 
 /*// get factorial by function 
 function getFactorial(num){
